@@ -1,0 +1,228 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/print.css" media="print" />
+</head>
+<body>
+    <header>
+      <div class="inner">
+	<h1 style="font-size:200%">Word Classes And POS Tagging</h1>
+      </div>
+    </header>
+
+
+<div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+<h2>Introduction</h2>
+
+<ul>
+<li>Parts of speech
+<ul><li>Equivalance classes</li>
+<li>Gives significant information about the words </li></ul></li>
+<li>Recent Models of POS
+<ul><li>Penn Treebank</li>
+<li>Brown Corpus </li>
+<li>C7 tagset</li></ul></li>
+<li>Applications
+<ul><li>Useful for spech recognition</li>
+<li>Useful for stemming and morph-analysis</li>
+<li>IR/IE Systems</li></ul></li>
+<li>Approaches
+<ul><li>Rule Based</li>
+<li>Stochastic</li>
+<li>Transformational</li></ul></li>
+</ul>
+
+<h2>English Word Classes</h2>
+
+<ul>
+<li>Traditional
+
+<ul><li>Words grouped WRT <strong>morphological properties</strong> and WRT which words can occur nearby <code>(</code><strong>Distributional properties</strong><code>)</code></li></ul>
+
+</li>
+<li>Words also have semantic coherence, but we don't generally consider that.</li>
+<li>Categories
+<ul><li>Open Vs Closed</li>
+<li>Closed can also be called <strong>functional words</strong></li>
+<li>Open Classes
+<ul><li>  Nouns, Verbs ,Adjectives, Adverbs
+Lakhota a native american indian language dosen't have adjectives. They can be translated to verbs</li></ul></li></ul></li>
+<li>Nouns 
+
+<ul><li>Ability to occur with <strong>Determiniers</strong></li>
+<li>Take possesives <code>(</code>Rama's,his<code>)</code></li>
+<li>Most of all, the plural form </li>
+<li>Proper Nouns 
+<ul><li>Names, Entities </li>
+<li>Aren't preceded by articles</li>
+<li>Ususaly Capitalized</li></ul></li>
+<li>Common Nouns 
+<ul><li>Count Nouns 
+<ul><li>Goat, Goats </li>
+<li>One goat, Two Goats</li></ul></li>
+<li>Mass noun 
+<ul><li>Air, Water, Salt, Capitalism etc </li>
+<li>Can't be pluralized </li></ul></li></ul></li></ul>
+
+</li>
+<li>Verbs 
+
+<ul><li>Forms of the verbs <code>(</code>Morphological<code>)</code>
+<ul><li>3-p-Sg,3-p-Pl,Progressive(-ing),past participle(eaten)</li></ul></li></ul>
+
+</li>
+<li>Adjectives</li>
+<li>Adverbs 
+
+<ul><li>Directional or Locative
+<ul><li>here,downhill,home</li></ul></li>
+<li>Degree
+<ul><li>Extremely,Slowly,Delicately</li></ul></li>
+<li>Temporal 
+<ul><li>yesterday, Monday etc</li></ul></li></ul>
+
+</li>
+<li>Prepositions 
+
+<ul><li>Temporal,Spatial,Literal or Metaphorical</li>
+<li>Particles 
+<ul><li>Resembles adverb or preposition and combines with a verb to form <strong>phrasal verb</strong></li></ul></li></ul>
+
+</li>
+<li>Articles</li>
+<li>Conjunctions 
+
+<ul><li>Join two 
+<ul><li>Phrases</li>
+<li>Clauses</li>
+<li>Sentences</li></ul></li>
+<li>Coordinating 
+<ul><li>Join parts of same status </li>
+<li>and, but, or </li></ul></li>
+<li>Subordinating 
+<ul><li>Joins main class with subordinate class</li>
+<li>ex : that.</li></ul></li>
+<li>Complementizer
+<ul><li>"I thought that you would like a toast"</li>
+<li>that combines with the verb thought. These are called complemetizers</li></ul></li></ul>
+
+</li>
+<li>Pronouns 
+
+<ul><li>Personal</li>
+<li>Posessive</li>
+<li>WH-Pronouns</li></ul>
+
+</li>
+<li>Auxillary verbs 
+
+<ul><li>Suggest the Tense,Aspect,Modality</li>
+<li><strong>Copula</strong> Verbs "Be","Have"
+<ul><li>Can be used as passive,progressive</li>
+<li>Used to mark perfet senses etc</li></ul></li>
+<li><strong>Modal</strong> verbs like can,shall,must indicate the mood</li></ul>
+
+</li>
+</ul>
+
+<h2>Tagsets for English</h2>
+</blockquote>
+
+<ul>
+<li>Existing 
+<ul><li>45 - Penn Tree</li>
+<li>61 - C5 - CLAWS</li>
+<li>146 - C7 - BNC</li>
+<li>Penn has less tags than C5 because it also involved parsing which clears ambiguities and makes some tags less nessecary</li></ul></li>
+<li>Tagsets are to be seleced depending upon the information needed</li>
+</ul>
+
+<h2>POS Tagging</h2>
+
+<ul>
+<li>Ambiguity</li>
+<li>ENGTWOL</li>
+<li>HMM Tagger</li>
+<li>Brills </li>
+</ul>
+
+<h2>Rule Based Tagging</h2>
+
+<ul>
+<li>Two step approach 
+<ul><li>Step 1 : Assign all possible tags to words <code>(</code>Using a dictionary<code>)</code></li>
+<li>Step 2: Narrow the tags using handmade rules</li></ul></li>
+<li><strong>ENGTWOL</strong>
+<ul><li>56,000 Entries 
+<ul><li>Including noun forms,verb forms etc of every word seperately</li></ul></li></ul></li>
+</ul>
+
+<h2>Stochastic POS Tagging</h2>
+
+<ul>
+<li>HMM Taggers
+<ul><li>P(word|tag)*P(tag|previous n tags)</li>
+<li>ti = argmaxP(tj|ti-1,wi)
+<ul><li>Chooses the most probable tag i given previous tag i-1 and the current word </li></ul></li>
+<li>Can be restated as 
+<ul><li>ti = argmaxP(tj|ti-1)P(wi|tj)
+<ul><li>The probablity of tag j occuring given prev tag X probablity of word i occuring for this tag.</li></ul></li></ul></li>
+<li>Example 
+<ul><li>The/Det race/NN to the witch mountain
+<ul><li>P(NN|Det)<em>P(race|NN)</li></ul></li>
+<li>He has to/TO race/VB tomorrow 
+<ul><li>P(VB|TO)</em>P(race|VB)</li></ul></li></ul></li></ul></li>
+</ul>
+
+<h2>Transformation Tagging</h2>
+
+<ul>
+<li>Also Brills Tagging </li>
+<li>Instance of Transformation based learning </li>
+<li>Inspired from both, rule based and stochastic approaches</li>
+<li>Approach 
+<ul><li>First tagged with broader rules. This gives many errors</li>
+<li>Then a slightly more specific rule is selected which makes less errors and so on. </li>
+<li>Basic approach is like HMM. But, when the tag is mispredicted, the tagger learns the <strong>Transformational Rule</strong></li></ul></li>
+<li>Stages 
+<ul><li>3 Stages
+<ol><li>Label the word with most likely tag</li>
+<li>Selects a good transformational rule </li>
+<li>Applies it.</li></ol></li></ul></li>
+<li>Templates 
+<ul><li>Used to limit the number of transformations </li>
+<li>Every rule is an instance of templates</li></ul></li>
+* 
+</ul>
+
+<h2>Tagger Evaluation</h2>
+
+<ul>
+<li>Human Gold Standard </li>
+<li>Baselines and Ceilings</li>
+<li>Human Ceiling 
+<ul><li>Check the %age of how much humans agree</li></ul></li>
+<li>Human Baseline 
+<ul><li>Compare against human baseline</li></ul></li>
+</ul>
+</section>
+<aside id="sidebar">
+ <a href="CHAP8JM.md" class="button">
+            <small>Download </small>
+            Markdown
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/neshkatrapati/Notes"></a> is maintained by <a href="https://github.com/neshkatrapati">neshkatrapati</a>.
+
+          This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </aside>
+</div>
+</div>
+</html>

@@ -144,13 +144,101 @@ modified/limited
 <li><strong>Universal 21</strong>
 <ul><li>If the adverb follows the adjective, and Adjective follows noun, then in that language, verb is followed by the nominal object</li>
 <li><em>From Table 7</em></li></ul></li>
-<li><strong>Universal 22</strong></li>
+<ul>
+<li><strong>Universal 22</strong>
+
+<ul><li>If the comparision order is standard-marker-adjective, the language is post positional. Other wise it is prepositional
+<ul><li><em>From Table 8</em></li></ul></li></ul></li>
+<li><strong>Universal 23</strong>
+
+<ul><li>The proper noun follows the common noun in NG languages. It is reverse in GN languages.</li>
+<li><em>From Table 9</em></li></ul></li>
+<li><strong>Universal 24</strong>
+
+<ul><li>If a relative expression precedes the noun, then the language is postpositional or it is a AN Language.</li>
+<li><em>From Table 10</em>
+<ul><li>Exception - Chinese which is a prepositional language but it is a AN language</li></ul></li></ul></li>
+<li>Pronouns exhibit differences whrn compared to the nouns. 
+
+<ul><li>Ex: "je vois l'homme" - I see the man
+<ul><li>Nominal object follows the verb</li></ul></li>
+<li>"Je le vois" - I see that/him 
+<ul><li>Pronominal object precedes</li></ul></li>
+<li>Italian, Greek, Swahili</li>
+<li>The pronominal object never follows, but the nominal object can follow or precede.</li></ul></li>
+<li><strong>Universal 25</strong>
+
+<ul><li>If pronominal object follows the verb, then so does the nominal object.</li></ul></li>
 </ul>
 
-<h2>Stuff to know</h2>
+<h2>Morphology</h2>
 
-<ol>
+<ul>
+<li>Based on Inflectional Categories</li>
+<li>Ambifixing
+<ul><li>Ex: Semitic</li>
+<li>Preceding affix, succeding affix combined.</li>
+<li>Discontinuos</li></ul></li>
+<li><strong>Universal 26</strong>
+
+<ul><li>If a language has discontinuous affixes, it has prefixes or suffixes or both.</li></ul></li>
+<li>Of the two, Exclusively suffixing languages are more than Exclusively prefixing languages</li>
+<li><strong>Universal 27</strong>
+-If a language is exclusively suffixing, it is postpostional else if it is exclusively prefixing it is prepositional</li>
+<li><strong>Universal 28</strong>
+
+<ul><li>If a word form has both inflection and derivation, then the derivation is closer to the root</li></ul></li>
+<li><strong>Universal 29</strong>
+
+<ul><li>If a language has inflection, it has derivation</li></ul></li>
+<li>There are languages without inflection</li>
+<li><strong>Universal 30</strong>
+
+<ul><li>If language has number-person or gender categories it always has TAM</li></ul></li>
+<li><strong>Universal 31</strong>
+
+<ul><li>If subject or object agrees with gender of the verb, the adjective agrees with the noun </li>
+<li><em>Need Example</em></li></ul></li>
+<li><strong>Universal 32</strong>
+<ul><li>When verb agrees with the nominal subject or object in the gender, it agrees in number</li></ul></li>
+<li><strong>Universal 33</strong>
+<ul><li>When number agreement is suspended btw noun and verb. The verb is singular and verb precedes</li>
+<li><em>Need Example</em></li></ul></li>
+<li><strong>Universal 34</strong>
+<ul><li>No language has trial number unless it has dual. No Language has dual unless it has plural.</li></ul></li>
+<li><strong>Universal 35</strong>
+
+<ul><li>There is no language where plural does not have some nonzero allomorphs. In some languages singular is expressed by zero, but dual and trail are almost never expressed by zero.</li>
+<li><em>See [7]</em></li></ul></li>
+<li><strong>Universal 36</strong>
+
+<ul><li>If language has category number, it alwasy has category gender</li></ul></li>
+<li><strong>Universal 37</strong>
+
+<ul><li>A language has no more gender categories in plural than in singular.</li>
+<li>We may have masculine, feminine in singular but not in plural but the vice versa is not possible</li></ul></li>
+<li><strong>Universal 38</strong>
+
+<ul><li>Did not understand</li></ul></li>
+<li><strong>Universal 39</strong>
+<ul><li>When there are number and case morphemes, number comes always between noun and case morphemes</li></ul></li>
+<li><strong>Universal 40</strong>
+<ul><li>When adjective follows the noun, the adjective covers all the inflections of the noun. In such cases, the noun may miss some inflections.</li>
+<li>But then, how do we identify the noun?</li></ul></li>
+<li><strong>Universal 41</strong>
+<ul><li>If the language is SOV, it almost always has a case system </li></ul></li>
+<li><strong>Universal 42</strong>
+<ul><li>All languages have pronominal categories involving at least three persons and two numbers.</li></ul></li>
+<li><strong>Universal 43</strong>
+<ul><li>If a language has gender categories in the noun, it also has it in pronouns </li></ul></li>
+<li><strong>Universal 44</strong>
+<ul><li>If language has gender categories in 1st person, it always has in 2nd or 3rd person or both.</li></ul></li>
+<li><strong>Universal 45</strong>
+
+<ul><li>If there are gender distinctions in plural pronouns, there are gender distinctions in singular also.
+<h2>Stuff to know</h2></li></ul></li>
 <li>Genetives
+
 <ul><li>Dependent Genetive 
 <ul><li>Noun follows it </li>
 <li>We met caroline's pet</li></ul></li>
@@ -174,23 +262,39 @@ modified/limited
 <li>Demonstratives
 
 <ul><li>This house is nice, I want those</li></ul></li>
+<li>Relative Clause
+
+<ul><li>Modifies the noun </li>
+<li>"I saw the man who came yesterday"</li></ul></li>
+<li>Allomorphs
+<ul><li>Difference in sounds but not in meanings
+<ul><li>a,an </li>
+<li>with plural marker 's','ies', singular,plural words are allomorphs because basic meaning is not changed</li></ul></li>
+<li>Zero allomorphs 
+<ul><li>Sheep ( sing ), Sheep + null ( plural )</li></ul></li></ul></li>
+<li>Intransitive verb
+<ul><li>Doesnt have a direct object</li>
+<li>Ex: "Let's Run!"</li>
+<li>Ergative Verb
+<ul><li>Can be Transitive/Intransitive</li></ul></li></ul></li>
 <li>Nonfinite verb forms</li>
 <li>Gerundives</li>
-</ol>
+</ul>
+
 </section>
 <aside id="sidebar">
- <a href="greenberg_universals.md" class="button">
+ <a href="greenbergs_universals.md" class="button">
             <small>Download </small>
             Markdown
           </a>
           <a href="greenberg.pdf" class="button">
             <small>Download</small>
-            PDF Resource
+            Resource
           </a>
 
-          <p class="repo-owner"><a href="https://github.com/neshkatrapati/Notes"></a> is maintained by <a href="https://github.com/neshkatrapati">neshkatrapati</a>.</p>
+          <p class="repo-owner"><a href="https://github.com/neshkatrapati/Notes"></a> is maintained by <a href="https://github.com/neshkatrapati">neshkatrapati</a>.
 
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+          This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
         </aside>
 </div>
 </div>
